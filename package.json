@@ -1,0 +1,30 @@
+{
+  "name": "@ongojs/db-query",
+  "version": "0.0.0",
+  "description": "db-query",
+  "main": "index.js",
+  "bin": {
+    "db-query": "bin/index.js"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/db-query.git"
+  },
+  "keywords": [
+    "db-query"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/db-query/issues"
+  },
+  "homepage": "https://github.com/ongojs/db-query#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "vitest": "^0.28.4"
+  }
+}
